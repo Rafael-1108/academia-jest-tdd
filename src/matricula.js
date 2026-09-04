@@ -4,7 +4,7 @@ export function matricularAluno(idade, nome) {
     }
 
     if (idade < 12 || idade > 100) {
-        throw new Error('Idade fora da faixa permitida (12 a 100 anos)');
+        throw new Error('Insira uma idade entre 12 e 100 anos');
     }
 
     if (!nome || typeof nome !== 'string') {
