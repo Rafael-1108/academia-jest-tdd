@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+
+# Relatórios e cobertura gerados pelos scripts de teste (npm run report)
+coverage/
+relatorio.json
+
+# Logs
+npm-debug.log*
+*.log
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Editores / IDEs
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
